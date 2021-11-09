@@ -136,7 +136,7 @@ namespace HwStackandQueue
                     //Console.WriteLine(CPU_1.GetNode().Instruction);
                     //Console.WriteLine(CPU_1.GetNode().Data);
                 }
-                else if (CPU_1.GetNode().Instruction == InstructionAndQueueInput.Instruction) // CPU_1.GetNode().Instruction = null?
+                else if (CPU_1.GetNode().Instruction == InstructionAndQueueInput.Instruction) // CPU_1.GetNode().Instruction return null ?
                 {
                     int count = CPU_1.CountNode();
                     if (count > 3)
